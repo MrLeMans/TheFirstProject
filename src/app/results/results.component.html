@@ -1,0 +1,20 @@
+<h2>My results</h2>
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Distance in meters</th>
+        <th>Time</th>
+        <th>Average speed</th>
+        <th>Option</th>
+    </tr>
+    <tr *ngFor="let result of results">
+        <td>{{result.date}}</td>
+        <td>{{result.distance}}</td>
+        <td>{{result.time}}</td>
+        <td>{{result.avgSpeed}}</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
+    </tr>
+</table>

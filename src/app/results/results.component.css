@@ -1,0 +1,9 @@
+:host {
+    display: inline-block;
+    position: absolute;
+    left: 220px;
+}
+
+td {
+    text-align: center;
+}
